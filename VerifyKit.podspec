@@ -11,8 +11,6 @@ Pod::Spec.new do |s|
                 }
     s.author             = { "Teknasyon Yazilim" => "vfk-gub@teknasyon.com" }
     s.source       = { :git => "https://github.com/vfk-test/PhonableDist.git", :tag => s.version.to_s, :branch => "master" }
-    s.public_header_files = "VerifyKit.framework/Headers/*.h"
-    s.source_files = "VerifyKit.framework/*"
     s.vendored_frameworks = "VerifyKit.framework"
     s.dependency "CryptoSwift"
     s.platform = :ios
