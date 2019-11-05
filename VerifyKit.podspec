@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "VerifyKit"
-    s.version      = "0.2.0"
+    s.version      = "0.2.1"
     s.summary      = "A brief description of VerifyKit project."
     s.description  = "A brief description of VerifyKit project."
     s.homepage     = "http://verifykit.com"
@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
                 }
     s.author             = { "Teknasyon Yazilim" => "vfk-gub@teknasyon.com" }
     s.source       = { :git => "https://github.com/vfk-test/PhonableDist.git", :branch => "master" }
-    s.vendored_frameworks = "VerifyKit.framework"
     s.dependency "CryptoSwift"
     s.platform = :ios
     s.swift_version = ['5.0','5.1']
