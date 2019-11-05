@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = "VerifyKit.framework"
     s.dependency "CryptoSwift"
     s.platform = :ios
-    s.swift_version = "5.0"
+    s.swift_version = "4.2"
     s.ios.deployment_target  = '10.3'
 end
 
